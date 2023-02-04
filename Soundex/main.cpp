@@ -1,4 +1,6 @@
 #include <gtest/gtest.h>
+#include <gmock/gmock.h>
+#include "Soudex.hpp"
 
 int main(int argc, char **argv)
 {
@@ -6,6 +8,7 @@ int main(int argc, char **argv)
   return RUN_ALL_TESTS();
 }
 
-TEST(Soundex, isPresent){
+TEST(Soundex, isPresent)
+{
   Soundex soundex;
 }
