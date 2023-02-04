@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "Soudex.hpp"
+#include "Soundex.hpp"
 
 int main(int argc, char **argv)
 {
