@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "Soundex.hpp"
+// #include "Soundex.hpp"
 
 int main(int argc, char **argv)
 {
@@ -8,7 +8,16 @@ int main(int argc, char **argv)
   return RUN_ALL_TESTS();
 }
 
-TEST(Soundex, isPresent)
+class Soundex
+{
+  public:
+  std::string encode(std::string word){
+    return "";
+  }
+};
+
+TEST(Soundex, RetainsSoleLetterOfOneLetterWord)
 {
   Soundex soundex;
+  auto encoded = soundex.encode("A");
 }
